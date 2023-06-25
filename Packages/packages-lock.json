@@ -160,6 +160,15 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.mock-hmd": {
+      "version": "1.3.1-preview.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.oculus": {
       "version": "4.0.0",
       "depth": 0,
@@ -168,6 +177,46 @@
         "com.unity.xr.management": "4.2.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "com.vrmc.gltf": {
+      "version": "https://github.com/tsgcpp/UniVRM.git?path=/Assets/UniGLTF#feature/urp15",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.112.0",
+        "com.unity.modules.animation": "1.0.0"
+      },
+      "hash": "8029f6c4c287fefa6705b2dd065f0c4488c7df28"
+    },
+    "com.vrmc.univrm": {
+      "version": "https://github.com/tsgcpp/UniVRM.git?path=/Assets/VRM#feature/urp15",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.112.0",
+        "com.vrmc.gltf": "0.112.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "8029f6c4c287fefa6705b2dd065f0c4488c7df28"
+    },
+    "com.vrmc.vrm": {
+      "version": "https://github.com/tsgcpp/UniVRM.git?path=/Assets/VRM10#feature/urp15",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.vrmc.vrmshaders": "0.112.0",
+        "com.vrmc.gltf": "0.112.0"
+      },
+      "hash": "8029f6c4c287fefa6705b2dd065f0c4488c7df28"
+    },
+    "com.vrmc.vrmshaders": {
+      "version": "https://github.com/tsgcpp/UniVRM.git?path=/Assets/VRMShaders#feature/urp15",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "hash": "8029f6c4c287fefa6705b2dd065f0c4488c7df28"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
