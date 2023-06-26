@@ -12,7 +12,7 @@ namespace VRDitherExample
         {
             new DitherInfo(name: "None", keyword: "_DITHERTYPE_NONE"),
             new DitherInfo(name: "DitherMaskLOD", keyword: "_DITHERTYPE_DITHERMASKLOD"),
-            new DitherInfo(name: "DitherArray4x4", keyword: "_DITHERTYPE_PSEUDORANDOM"),
+            new DitherInfo(name: "PseudoRandom", keyword: "_DITHERTYPE_PSEUDORANDOM"),
             new DitherInfo(name: "GradientNoise", keyword: "_DITHERTYPE_GRADIENTNOISE"),
             new DitherInfo(name: "BlueNoise16x16", keyword: "_DITHERTYPE_BLUENOISE16X16"),
             new DitherInfo(name: "DitherArray8x8", keyword: "_DITHERTYPE_DITHERARRAY8X8"),
